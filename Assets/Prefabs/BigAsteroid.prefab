@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 8079089646666394152}
   - component: {fileID: 114416215843699430}
   - component: {fileID: 114970425722515488}
+  - component: {fileID: 114572772246768790}
   m_Layer: 0
   m_Name: BigAsteroid
   m_TagString: EnemyObject
@@ -173,5 +174,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5cd5a72457b9284cab74e1a994db746, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114572772246768790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8079089646666394148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d2efdfb214626848b24ad0cba83f853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

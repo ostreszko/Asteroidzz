@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 2020890673433556640}
   - component: {fileID: 114170125119367250}
   - component: {fileID: 114396002512550382}
+  - component: {fileID: 114017831720549728}
   m_Layer: 0
   m_Name: MediumAsteroid
   m_TagString: EnemyObject
@@ -173,5 +174,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5cd5a72457b9284cab74e1a994db746, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114017831720549728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020890673433556652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d2efdfb214626848b24ad0cba83f853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
