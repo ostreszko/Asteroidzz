@@ -300,7 +300,7 @@ MonoBehaviour:
   - tag: PlayerProjectile
     prefab: {fileID: 6580079924932850629, guid: 96102a75196f55c4187726542d9df021,
       type: 3}
-    size: 30
+    size: 5
   - tag: EnemyProjectile
     prefab: {fileID: 2364778459238677174, guid: 1ce1f7bba327e824b8856808eaa8e914,
       type: 3}
