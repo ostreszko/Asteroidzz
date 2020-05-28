@@ -7,11 +7,11 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     Vector2 faceDirection;
     public float moveSpeed = 20f, maxSpeed, rotationSpeed = 5f;
+    public float shootRecoilForce = 10f;
     ObjectPooler objectPooler;
     LocalGameMaster lgm;
     public ParticleSystem particleSmoke;
     EmissionModule smokeEmision;
-
 
     void Start()
     {
@@ -37,6 +37,8 @@ public class PlayerController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             lgm.audioManager.Play("Shoot1");
+            rb.AddForce(-faceDirection * shootRecoilForce);
+            rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxSpeed);
             objectPooler.SpawnFromPool("PlayerProjectile",transform.position + (transform.right * 5), transform.rotation);
         }
     }
